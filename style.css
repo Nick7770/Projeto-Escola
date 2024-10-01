@@ -1,3 +1,26 @@
 body {
-    background-color: black;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+#area_icones_materias{
+    display: grid;
+    gap: 1em 1em;
+}
+
+#fisica_icone_botao {
+    margin: auto;
+    width: 10em;
+    height: 10em;
+    background-color: snow;
+    border-radius: 5%;
+}
+#quimica_icone_botao {
+    margin: auto;
+    width: 10em;
+    height: 10em;
+    background-color: snow;
+    border-radius: 5%;
 }
