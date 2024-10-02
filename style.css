@@ -9,13 +9,28 @@ body {
     display: grid;
     gap: 1em 1em;
 }
-#icone_materia{
+#icones_materias{
     margin: auto;
     margin-top: 5%;
     width: 75%;
+    margin-bottom: -10%;
+}
+#textos_materias{
+    text-align: center;
+    line-height: 10em;
+    font: bold 150% Arial;
+    color: black;
+}
+#linha{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    height: 0.25em;
+    border-radius: 100%;
 }
 
 #fisica_icone_botao {
+    cursor: pointer;
     margin: auto;
     width: 12em;
     height: 12em;
@@ -23,9 +38,11 @@ body {
     border-radius: 5%;
 }
 #quimica_icone_botao {
+    cursor: pointer;
     margin: auto;
     width: 12em;
     height: 12em;
     background-color: snow;
     border-radius: 5%;
+    margin-bottom: 1%;
 }
