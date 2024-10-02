@@ -9,18 +9,23 @@ body {
     display: grid;
     gap: 1em 1em;
 }
+#icone_materia{
+    margin: auto;
+    margin-top: 5%;
+    width: 75%;
+}
 
 #fisica_icone_botao {
     margin: auto;
-    width: 10em;
-    height: 10em;
+    width: 12em;
+    height: 12em;
     background-color: snow;
     border-radius: 5%;
 }
 #quimica_icone_botao {
     margin: auto;
-    width: 10em;
-    height: 10em;
+    width: 12em;
+    height: 12em;
     background-color: snow;
     border-radius: 5%;
 }
