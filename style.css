@@ -7,7 +7,11 @@ body {
 
 #area_icones_materias{
     display: grid;
-    gap: 1em 1em;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+#coluna{
+    padding: 20px;
 }
 #icones_materias{
     margin: auto;
@@ -27,22 +31,4 @@ body {
     margin: auto;
     height: 0.25em;
     border-radius: 100%;
-}
-
-#fisica_icone_botao {
-    cursor: pointer;
-    margin: auto;
-    width: 12em;
-    height: 12em;
-    background-color: snow;
-    border-radius: 5%;
-}
-#quimica_icone_botao {
-    cursor: pointer;
-    margin: auto;
-    width: 12em;
-    height: 12em;
-    background-color: snow;
-    border-radius: 5%;
-    margin-bottom: 1%;
 }
